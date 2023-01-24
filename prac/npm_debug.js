@@ -1,0 +1,5 @@
+const debugger1 = require('debug')('app:mode-1')
+const debugger2 = require('debug')('app:mode-2')
+if(true)
+    debugger1('debugger 1 called successfully')
+debugger2('debugger 2 called successfully')
